@@ -1,0 +1,50 @@
+2025-04-13T21:37:42.444035+00:00 kali-raspberry-pi-zero-2-w sshd-session[32579]: Accepted password for dougl from 192.168.0.4 port 38072 ssh2
+2025-04-13T21:37:42.472366+00:00 kali-raspberry-pi-zero-2-w sshd-session[32579]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-13T21:43:17.588539+00:00 kali-raspberry-pi-zero-2-w sshd-session[375]: Accepted password for dougl from 192.168.0.4 port 45728 ssh2
+2025-04-13T21:43:17.598875+00:00 kali-raspberry-pi-zero-2-w sshd-session[375]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-13T23:54:20.350735+00:00 kali-raspberry-pi-zero-2-w sshd-session[32619]: Read error from remote host 192.168.0.4 port 38072: Connection timed out
+2025-04-13T23:54:20.361444+00:00 kali-raspberry-pi-zero-2-w sshd-session[32579]: pam_unix(sshd:session): session closed for user dougl
+2025-04-13T23:54:20.364505+00:00 kali-raspberry-pi-zero-2-w sshd-session[32579]: syslogin_perform_logout: logout() returned an error
+2025-04-13T23:59:48.030692+00:00 kali-raspberry-pi-zero-2-w sshd-session[383]: Read error from remote host 192.168.0.4 port 45728: Connection timed out
+2025-04-13T23:59:48.042067+00:00 kali-raspberry-pi-zero-2-w sshd-session[375]: pam_unix(sshd:session): session closed for user dougl
+2025-04-13T23:59:48.046840+00:00 kali-raspberry-pi-zero-2-w sshd-session[375]: syslogin_perform_logout: logout() returned an error
+2025-04-14T06:33:26.660996+00:00 kali-raspberry-pi-zero-2-w sshd[657]: Server listening on 0.0.0.0 port 22.
+2025-04-14T06:33:26.661549+00:00 kali-raspberry-pi-zero-2-w sshd[657]: Server listening on :: port 22.
+2025-04-14T07:27:36.854601+00:00 kali-raspberry-pi-zero-2-w sshd[655]: Server listening on 0.0.0.0 port 22.
+2025-04-14T07:27:36.858229+00:00 kali-raspberry-pi-zero-2-w sshd[655]: Server listening on :: port 22.
+2025-04-14T21:14:17.126752+00:00 kali-raspberry-pi-zero-2-w sshd[640]: Server listening on 0.0.0.0 port 22.
+2025-04-14T21:14:17.127428+00:00 kali-raspberry-pi-zero-2-w sshd[640]: Server listening on :: port 22.
+2025-04-14T21:23:20.995619+00:00 kali-raspberry-pi-zero-2-w sshd-session[1041]: Accepted password for dougl from 192.168.0.4 port 37616 ssh2
+2025-04-14T21:23:21.009544+00:00 kali-raspberry-pi-zero-2-w sshd-session[1041]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-14T21:56:07.440064+00:00 kali-raspberry-pi-zero-2-w sshd[662]: Server listening on 0.0.0.0 port 22.
+2025-04-14T21:56:07.440699+00:00 kali-raspberry-pi-zero-2-w sshd[662]: Server listening on :: port 22.
+2025-04-14T21:56:11.459381+00:00 kali-raspberry-pi-zero-2-w sshd[660]: Server listening on 0.0.0.0 port 22.
+2025-04-14T21:56:11.461009+00:00 kali-raspberry-pi-zero-2-w sshd[660]: Server listening on :: port 22.
+2025-04-14T22:05:03.088381+00:00 kali-raspberry-pi-zero-2-w sshd[636]: Server listening on 0.0.0.0 port 22.
+2025-04-14T22:05:03.088932+00:00 kali-raspberry-pi-zero-2-w sshd[636]: Server listening on :: port 22.
+2025-04-14T22:08:13.853972+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.42.0.71  user=dougl
+2025-04-14T22:08:13.854520+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_winbind(sshd:auth): getting password (0x00000388)
+2025-04-14T22:08:13.854871+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_winbind(sshd:auth): pam_get_item returned a password
+2025-04-14T22:08:13.855169+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+2025-04-14T22:08:13.855506+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'dougl')
+2025-04-14T22:08:15.854185+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: Failed password for dougl from 10.42.0.71 port 57787 ssh2
+2025-04-14T22:08:20.243837+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: Accepted password for dougl from 10.42.0.71 port 57787 ssh2
+2025-04-14T22:08:20.257434+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-14T22:40:13.007397+00:00 kali-raspberry-pi-zero-2-w sshd-session[3354]: Accepted password for dougl from 10.42.0.71 port 21485 ssh2
+2025-04-14T22:40:13.032646+00:00 kali-raspberry-pi-zero-2-w sshd-session[3354]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-14T22:42:10.640205+00:00 kali-raspberry-pi-zero-2-w sshd-session[3354]: syslogin_perform_logout: logout() returned an error
+2025-04-14T22:42:10.653220+00:00 kali-raspberry-pi-zero-2-w sshd-session[3363]: Received disconnect from 10.42.0.71 port 21485:11: disconnected by user
+2025-04-14T22:42:10.665695+00:00 kali-raspberry-pi-zero-2-w sshd-session[3363]: Disconnected from user dougl 10.42.0.71 port 21485
+2025-04-14T22:42:10.667704+00:00 kali-raspberry-pi-zero-2-w sshd-session[3354]: pam_unix(sshd:session): session closed for user dougl
+2025-04-14T22:48:23.889734+00:00 kali-raspberry-pi-zero-2-w sshd-session[3638]: Accepted password for dougl from 192.168.0.4 port 49104 ssh2
+2025-04-14T22:48:23.900935+00:00 kali-raspberry-pi-zero-2-w sshd-session[3638]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
+2025-04-15T00:51:30.476169+00:00 kali-raspberry-pi-zero-2-w sshd-session[1023]: Read error from remote host 10.42.0.71 port 57787: Connection timed out
+2025-04-15T00:51:30.625039+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: pam_unix(sshd:session): session closed for user dougl
+2025-04-15T00:51:30.666550+00:00 kali-raspberry-pi-zero-2-w sshd-session[979]: syslogin_perform_logout: logout() returned an error
+2025-04-15T01:58:24.540442+00:00 kali-raspberry-pi-zero-2-w sshd-session[3646]: Read error from remote host 192.168.0.4 port 49104: Connection timed out
+2025-04-15T01:58:24.554868+00:00 kali-raspberry-pi-zero-2-w sshd-session[3638]: pam_unix(sshd:session): session closed for user dougl
+2025-04-15T01:58:24.571678+00:00 kali-raspberry-pi-zero-2-w sshd-session[3638]: syslogin_perform_logout: logout() returned an error
+2025-04-15T11:51:18.937067+00:00 kali-raspberry-pi-zero-2-w sshd[660]: Server listening on 0.0.0.0 port 22.
+2025-04-15T11:51:18.937709+00:00 kali-raspberry-pi-zero-2-w sshd[660]: Server listening on :: port 22.
+2025-04-17T11:10:29.573650+00:00 kali-raspberry-pi-zero-2-w sshd-session[31806]: Accepted password for dougl from 10.42.0.71 port 45991 ssh2
+2025-04-17T11:10:29.604271+00:00 kali-raspberry-pi-zero-2-w sshd-session[31806]: pam_unix(sshd:session): session opened for user dougl(uid=1000) by dougl(uid=0)
